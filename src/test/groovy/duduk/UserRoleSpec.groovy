@@ -1,6 +1,6 @@
 package duduk
 
-import duduk.auth.UserRole
+
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 

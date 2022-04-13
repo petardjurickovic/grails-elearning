@@ -2,6 +2,7 @@ package duduk.test
 
 import duduk.auth.User
 
+
 class Rating {
 
     User user

@@ -1,6 +1,5 @@
-package duduk
+package duduk.auth
 
-import duduk.auth.User
 import grails.gorm.services.Service
 
 @Service(User)

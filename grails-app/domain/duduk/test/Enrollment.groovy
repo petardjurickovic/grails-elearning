@@ -2,7 +2,7 @@ package duduk.test
 
 import duduk.auth.User
 
-class UserCourse {
+class Enrollment {
 
     User student
     Course course

@@ -41,6 +41,19 @@
             </g:each>
         </ul>
     </li>
+
+    <sec:ifLoggedIn>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <sec:username/><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+                <li class="dropdown-item"><a href="#">Profile</a></li>
+                <li class="dropdown-item"><g:link controller="logout">Logout</g:link> </li>
+            </ul>
+        </li>
+
+
+    </sec:ifLoggedIn>
 </content>
 
 <div class="svg" role="presentation">

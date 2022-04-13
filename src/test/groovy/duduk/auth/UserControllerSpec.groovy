@@ -1,5 +1,4 @@
-package duduk
-
+package duduk.auth
 
 import grails.testing.gorm.DomainUnitTest
 import grails.testing.web.controllers.ControllerUnitTest

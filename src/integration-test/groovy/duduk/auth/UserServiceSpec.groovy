@@ -1,5 +1,4 @@
-package duduk
-
+package duduk.auth
 
 import grails.testing.mixin.integration.Integration
 import grails.gorm.transactions.Rollback
